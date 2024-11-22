@@ -1,0 +1,363 @@
+@media (min-width: 600px) and (max-width: 800px) {
+    header .cabecalho {
+        height: 90px;
+        top: -2.5px;
+    }
+
+    header .cabecalho img {
+        margin-left: 40px;
+        width: 130px;
+        height: 85px;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    #fechar {
+        display: none;
+    }
+
+    header .cabecalho .menu {
+        all: unset;
+    }
+
+    header .cabecalho .menu ul {
+        display: grid;
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        height: 90px;
+    }
+
+    header .cabecalho .menu ul a {
+        color: #003366;
+        font-size: 20px;
+        position: relative;
+    }
+
+    header .cabecalho .menu ul a::after {
+        content: ""; 
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background-color: #003366;
+        transition: width 0.3s ease;
+    }
+
+    header .cabecalho .menu ul a:hover::after {
+        width: 100%;
+    }
+
+    .inicio h2 {
+        display: none;
+    }
+
+    .inicio span {
+        display: block;
+        font-family: var(--fonteTitulo);
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        max-width: 90%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    main .sobreNos p {
+        max-width: 84%;
+        font-size: 22px;
+    }
+
+    main .sobreNos img {
+        width: 75%;
+    }
+
+    .servicos .conteiner {
+        width: 65%;
+        padding: 18px;
+    }
+
+    .descricaoServicos {
+        width: 70%;
+        padding: 0 10px;
+    }
+
+    .descricaoServicos p {
+        font-size: 25px;
+        max-width: 92%;
+        margin-bottom: 30px;
+    }
+
+    .descricaoServicos button {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .descricaoServicos div i {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    header .cabecalho {
+        height: 90px;
+        top: -2.5px;
+    }
+
+    header .cabecalho img {
+        margin-left: 40px;
+        width: 135px;
+        height: 90px;
+    }
+
+    header .cabecalho .icones i {
+        font-size: 30px;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    #fechar {
+        display: none;
+    }
+
+    header .cabecalho .menu {
+        all: unset;
+    }
+
+    header .cabecalho .menu ul {
+        display: grid;
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        height: 90px;
+    }
+
+    header .cabecalho .menu ul a {
+        color: #003366;
+        font-size: 24px;
+        position: relative;
+    }
+
+    header .cabecalho .menu ul a::after {
+        content: ""; 
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background-color: #003366;
+        transition: width 0.3s ease;
+    }
+
+    header .cabecalho .menu ul a:hover::after {
+        width: 100%;
+    }
+
+    .inicio h2 {
+        display: none;
+    }
+
+    .inicio span {
+        display: block;
+        font-family: var(--fonteTitulo);
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        max-width: 80%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .inicio button {
+        padding: 8px 10px;
+    }
+
+    main .sobreNos p {
+        max-width: 84%;
+        font-size: 22px;
+    }
+
+    main .sobreNos img {
+        width: 73%;
+    }
+
+    .servicos .conteiner {
+        width: 63%;
+        padding: 18px;
+    }
+
+    .descricaoServicos {
+        width: 70%;
+        padding: 20px 10px;
+    }
+
+    .descricaoServicos h2 {
+        font-size: 35px;
+    }
+
+    .descricaoServicos p {
+        font-size: 27px;
+        max-width: 90%;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .descricaoServicos button {
+        font-size: 23px;
+        margin-bottom: 20px;
+        padding: 7px 9px;
+    }
+
+    .descricaoServicos div i {
+        font-size: 27px;
+        top: 5px;
+        left: 15px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width:1300px) {
+
+    .inicio {
+        height: 600px;
+    }
+
+    header .cabecalho {
+        height: 90px;
+        top: -2.5px;
+    }
+
+    header .cabecalho img {
+        margin-left: 40px;
+        width: 135px;
+        height: 90px;
+    }
+
+    header .cabecalho .icones i {
+        font-size: 30px;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    #fechar {
+        display: none;
+    }
+
+    header .cabecalho .menu {
+        all: unset;
+    }
+
+    header .cabecalho .menu ul {
+        display: grid;
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        height: 90px;
+    }
+
+    header .cabecalho .menu ul a {
+        color: #003366;
+        font-size: 24px;
+        position: relative;
+    }
+
+    header .cabecalho .menu ul a::after {
+        content: ""; 
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background-color: #003366;
+        transition: width 0.3s ease;
+    }
+
+    header .cabecalho .menu ul a:hover::after {
+        width: 100%;
+    }
+
+    .inicio h2 {
+        display: none;
+    }
+
+    .inicio span {
+        display: block;
+        font-family: var(--fonteTitulo);
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        max-width: 80%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .inicio button {
+        padding: 8px 10px;
+    }
+
+    .sobreNos .cont {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    main .sobreNos p {
+        font-size: 22px;
+        margin: auto 0;
+        line-height: 30px;
+    }
+
+    main .sobreNos img {
+        width: 430px;
+        margin-left: 50px;
+    }
+
+    .servicos .caixa {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+        margin: auto;
+    }
+
+    .servicos .conteiner {
+        width: 400px;
+        height: 250px;
+    }
+
+    .descricaoServicos {
+        width: 60%;
+        padding: 20px 10px;
+    }
+
+    .descricaoServicos h2 {
+        font-size: 35px;
+    }
+
+    .descricaoServicos p {
+        font-size: 25px;
+        max-width: 90%;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .descricaoServicos button {
+        font-size: 23px;
+        margin-bottom: 20px;
+        padding: 7px 9px;
+    }
+
+    .descricaoServicos div i {
+        font-size: 27px;
+        top: 5px;
+        left: 15px;
+    }
+}
